@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>001.简单介绍及环境安装 | Hexo</title>
+    
+    
+        <meta name="keywords" content="hexo,wiki,blog,github pages,博客" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="1. Github pages介绍 GitHub是基于git实现的代码托管，git可能是目前最好用的版本控制系统了，数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行； 博客内容可以轻松打包、转移、发布到其它平台； GitHub可以免费使用，并且快速稳定；GitHub pages全是静态文件，访问速度快； Github Pages可以被认为是用户编写的、托管在github上的静态">
+<meta name="keywords" content="hexo,wiki,blog,github pages,博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="001.简单介绍及环境安装">
+<meta property="og:url" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. Github pages介绍 GitHub是基于git实现的代码托管，git可能是目前最好用的版本控制系统了，数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行； 博客内容可以轻松打包、转移、发布到其它平台； GitHub可以免费使用，并且快速稳定；GitHub pages全是静态文件，访问速度快； Github Pages可以被认为是用户编写的、托管在github上的静态">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531745162827.png">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531744932898.png">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531744982258.png">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/image2018-6-17_13-13-25.png">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/image2018-6-17_13-18-39.png">
+<meta property="og:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531745666985.png">
+<meta property="og:updated_time" content="2018-07-16T13:00:03.255Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="001.简单介绍及环境安装">
+<meta name="twitter:description" content="1. Github pages介绍 GitHub是基于git实现的代码托管，git可能是目前最好用的版本控制系统了，数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行； 博客内容可以轻松打包、转移、发布到其它平台； GitHub可以免费使用，并且快速稳定；GitHub pages全是静态文件，访问速度快； Github Pages可以被认为是用户编写的、托管在github上的静态">
+<meta name="twitter:image" content="http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531745162827.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+    
+        <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Hexo</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="https://www.gravatar.com/avatar/4afa767495d89a1a2feacef625eb9a7e" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="https://www.gravatar.com/avatar/4afa767495d89a1a2feacef625eb9a7e?s=128" />
+            <h2 id="name">chendi</h2>
+            <h3 id="title">Designer &amp; Programmer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>zhengzhou, China</span>
+            <a id="follow" target="_blank" href="https://github.com/chendi20082009/">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                2
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                6
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/zthxxx/zthxxx.github.io" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="http://stackoverflow.com/users/7277090/zthxxx?tab=profile" target="_blank" title="stack-overflow" class=tooltip>
+                            <i class="fa fa-stack-overflow"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="http://codepen.io/zthxxx/" target="_blank" title="codepen" class=tooltip>
+                            <i class="fa fa-codepen"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/atom.xml" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            hexo
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            测试
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/07/16/hello-world/">Hello World</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            采用hexo+github pages搭建个人博客和个人wiki
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/">001.简单介绍及环境安装</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-How-to-install-wiki-with-hexo-and-github-pages" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/采用hexo-github-pages搭建个人博客和个人wiki/">采用hexo+github pages搭建个人博客和个人wiki</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/blog/">blog</a>, <a class="tag-link" href="/tags/github-pages/">github pages</a>, <a class="tag-link" href="/tags/hexo/">hexo</a>, <a class="tag-link" href="/tags/wiki/">wiki</a>, <a class="tag-link" href="/tags/博客/">博客</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/">
+            <time datetime="2018-07-15T16:00:00.000Z" itemprop="datePublished">2018-07-16</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/chendi/Wiki-site/raw/writing/source/_posts/How-to-install-wiki-with-hexo-and-github-pages.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/chendi/Wiki-site/edit/writing/source/_posts/How-to-install-wiki-with-hexo-and-github-pages.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/chendi/Wiki-site/commits/writing/source/_posts/How-to-install-wiki-with-hexo-and-github-pages.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            001.简单介绍及环境安装
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <hr>
+<h1 id="1-Github-pages介绍"><a href="#1-Github-pages介绍" class="headerlink" title="1. Github pages介绍"></a>1. Github pages介绍</h1><ul>
+<li>GitHub是基于git实现的代码托管，git可能是目前最好用的版本控制系统了，数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li>
+<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
+<li>GitHub可以免费使用，并且快速稳定；GitHub pages全是静态文件，访问速度快；</li>
+<li><p>Github Pages可以被认为是用户编写的、托管在github上的静态网页。 </p>
+</li>
+<li><p>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的，但暂时貌似只能绑定一个。</p>
+</li>
+<li>简单快捷，使用Github Pages可以为你提供一个免费的服务器，免去了自己搭建服务器和写数据库的麻烦。</li>
+<li>免费方便而且没有空间流量限制的，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；而wordpress则需要额外支付昂贵的主机费</li>
+</ul>
+<h1 id="2-基本环境"><a href="#2-基本环境" class="headerlink" title="2. 基本环境"></a>2. 基本环境</h1><h2 id="2-1有一个github账号"><a href="#2-1有一个github账号" class="headerlink" title="2.1有一个github账号"></a>2.1有一个github账号</h2><ul>
+<li><p>打开<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>站点，注册一个账号</p>
+</li>
+<li><p>创建仓储</p>
+</li>
+<li><p>绑定域名</p>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531745162827.png" alt="1531745162827"></p>
+</li>
+</ul>
+<h2 id="2-2安装了node-js、npm，并了解相关基础知识"><a href="#2-2安装了node-js、npm，并了解相关基础知识" class="headerlink" title="2.2安装了node.js、npm，并了解相关基础知识"></a>2.2安装了node.js、npm，并了解相关基础知识</h2><p>在 Windows 环境下安装 Node.js 非常简单，仅须到<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">官网下载</a>安装文件并执行即可完成安装。 </p>
+<blockquote>
+<p>先简单介绍下 npm，引用阮一峰老师的文章：<br>npm 是 Node 的模块管理器，功能极其强大。它是 Node 获得成功的重要原因之一。<br>正因为有了npm，我们只要一行命令，就能安装别人写好的模块 。<br>npm install 命令用来安装模块到node_modules目录。<br>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题，常见的使用场景有以下几种：<br>允许用户从NPM服务器下载别人编写的第三方包到本地使用。<br>允许用户从NPM服务器下载并安装别人编写的命令行程序到本地使用。<br>允许用户将自己编写的包或命令行程序上传到NPM服务器供别人使用。<br>由于新版的 nodejs 已经集成了 npm，所以之前 npm 也一并安装好了。同样可以通过输入 “npm -v” 来测试是否成功安装。</p>
+</blockquote>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531744932898.png" alt="1531744932898"></p>
+<h2 id="2-3安装了git-for-windows（或者其它git客户端）"><a href="#2-3安装了git-for-windows（或者其它git客户端）" class="headerlink" title="2.3安装了git for windows（或者其它git客户端）"></a>2.3安装了git for windows（或者其它git客户端）</h2><p><strong>下载安装git。下载地址<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></strong> </p>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531744982258.png" alt="1531744982258"></p>
+<h2 id="2-4-配置SSH-key"><a href="#2-4-配置SSH-key" class="headerlink" title="2.4 配置SSH key"></a>2.4 配置SSH key</h2><p>为什么要配置这个呢？因为你提交代码肯定要拥有你的github权限才可以，但是直接使用用户名和密码太不安全了，所以我们使用ssh key来解决本地和服务器的连接问题。 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;chendi2082009@qq.com&quot;</span><br></pre></td></tr></table></figure>
+<p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到<code>.ssh\id_rsa.pub</code>文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：</p>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/image2018-6-17_13-13-25.png" alt="img"></p>
+<p>将刚复制的内容粘贴到key那里，title随便填，保存。</p>
+<p>测试是否成功</p>
+<p>如果提示<code>Are you sure you want to continue connecting (yes/no)?</code>，输入yes，然后会看到：</p>
+<blockquote>
+<p>Hi chendi20082009! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
+</blockquote>
+<p>看到这个信息说明SSH已配置成功！</p>
+<p>此时你还需要配置：因为github每次commit都会记录他们。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;chendi20082009&quot;// 你的github用户名，非昵称</span><br><span class="line">$ git config --global user.email  &quot;chendi20082009@qq.com&quot;// 填写你的github注册邮箱</span><br></pre></td></tr></table></figure>
+<h1 id="3-安装hexo"><a href="#3-安装hexo" class="headerlink" title="3. 安装hexo"></a>3. 安装hexo</h1><blockquote>
+<p>hexo 本身是一个静态博客生成工具，具备编译 Markdown、拼接主题模板、生成 HTML、上传 Git 或 FTP 等基本功能。将这些功能封装为命令，提供给用户通过 hexo server / hexo deploy 等命令调用的模块，就是 hexo-cli 了。CLI = Command Line Interface 命令行界面。</p>
+<p>后者是前者的命令行模式</p>
+</blockquote>
+<h2 id="3-1-初始化"><a href="#3-1-初始化" class="headerlink" title="3.1 初始化"></a>3.1 初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
+<p>在电脑的某个地方新建一个名为hexo的文件夹（名字可以随便取），比如我的是<code>D:\Dropbox\hexo</code>，由于这个文件夹将来就作为你存放代码的地方，所以最好不要随便放。 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd /d/dropbox/hexo/</span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+<p>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图： </p>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/image2018-6-17_13-18-39.png" alt="img"> </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g # 生成</span><br><span class="line">hexo s # 启动服务</span><br></pre></td></tr></table></figure>
+<p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 即可看到内容，很多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故，因为4000这个端口太常见了，解决端口冲突换用其它端口： </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -p 5000</span><br></pre></td></tr></table></figure>
+<p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是这个样子： </p>
+<p><img src="/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/1531745666985.png" alt="1531745666985"></p>
+<h2 id="3-2-修改主题"><a href="#3-2-修改主题" class="headerlink" title="3.2 修改主题"></a>3.2 修改主题</h2><p>下载主题至主题目录，如：maupassant-hexo</p>
+<p>安装主题和渲染器：</p>
+<p>编辑Hexo目录下的 <code>_config.yml</code>，将<code>theme</code>的值改为<code>maupassant</code>。</p>
+<p>详细的配置过程参照这里 <a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="noopener">https://www.haomwei.com/technology/maupassant-hexo.html</a></p>
+<h1 id="4-上传至github"><a href="#4-上传至github" class="headerlink" title="4.上传至github"></a>4.上传至github</h1><p>在上传代码到github之前，一定要记得先把你以前所有代码下载下来（虽然github有版本管理，但备份一下总是好的），因为从hexo提交代码时会把你以前的所有代码都删掉。</p>
+<p>如果你一切都配置好了，发布上传很容易，一句<code>hexo d</code>就搞定，当然关键还是你要把所有东西配置好。</p>
+<p>首先，<code>ssh key</code>肯定要配置好。</p>
+<p>其次，配置<code>_config.yml</code>中有关deploy的部分：</p>
+<p>正确写法：</p>
+<p>此时直接执行<code>hexo d</code>的话一般会报如下错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Deployer not found: github 或者 Deployer not found: git</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">原因是还需要安装一个插件：</span><br></pre></td></tr></table></figure>
+<p>其它命令不确定，部署这个命令一定要用git bash，否则会提示<code>Permission denied (publickey).</code></p>
+<p>打开你的git bash，输入<code>hexo d</code>就会将本次有改动的代码全部提交，没有改动的不会：</p>
+<p># Deployment<br>## Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a><br>deploy:<br>type: git<br>repo: <a href="https://github.com/chendi20082009/hexo.git" target="_blank" rel="noopener">https://github.com/chendi20082009/hexo.git</a><br>branch: master</p>
+<h1 id="5-一些问题"><a href="#5-一些问题" class="headerlink" title="5.一些问题"></a>5.一些问题</h1><p>解决hexo博客的乱码问题</p>
+<p>方法：</p>
+<p>​    1.将博客文件保存为UTF-8</p>
+<p>​     用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，</p>
+<p>点击“保存”，替换原文件。</p>
+<p>​    2.重新生成，部署，博客乱码即消除。</p>
+<h1 id="6-常用命令"><a href="#6-常用命令" class="headerlink" title="6.常用命令"></a>6.常用命令</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g #完整命令为hexo generate，用于生成静态文件</span><br><span class="line">$ hexo s #完整命令为hexo server，用于启动服务器，主要用来本地预览</span><br><span class="line">$ hexo d #完整命令为hexo deploy，用于将本地文件发布到github上</span><br><span class="line">$ hexo n #完整命令为hexo new，用于新建一篇文章</span><br><span class="line">$ hexo clean #清楚缓存</span><br></pre></td></tr></table></figure>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+    
+        <a href="/2018/07/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Hello World</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            chendi &copy; 2018 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
