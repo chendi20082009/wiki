@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/07/16/A1.How-to-install-wiki-with-hexo-and-github-pages/</loc>
+    <loc>http://yoursite.com/2018/07/16/A-1.How-to-install-wiki-with-hexo-and-github-pages/</loc>
     
     <lastmod>2018-08-03T13:15:24.650Z</lastmod>
     
@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/03/A3.How-to-install-wiki-with-hexo-and-github-pages-3/</loc>
+    <loc>http://yoursite.com/2018/08/03/A-3.How-to-install-wiki-with-hexo-and-github-pages-3/</loc>
     
     <lastmod>2018-08-03T13:06:10.719Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/07/17/A2.How-to-install-wiki-with-hexo-and-github-pages-2/</loc>
+    <loc>http://yoursite.com/2018/07/17/A-2.How-to-install-wiki-with-hexo-and-github-pages-2/</loc>
     
     <lastmod>2018-08-03T13:06:05.734Z</lastmod>
     
@@ -51,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2018-07-16T10:51:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2018-07-16T10:51:01.000Z</lastmod>
@@ -66,6 +59,13 @@
   
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-07-16T10:51:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2018-07-16T10:51:01.000Z</lastmod>
     
