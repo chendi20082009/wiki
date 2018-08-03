@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/07/16/A1.hello-world/</loc>
-    
-    <lastmod>2018-08-03T13:54:59.707Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2018/08/03/D-3.How-to-install-wiki-with-hexo-and-github-pages-3/</loc>
     
-    <lastmod>2018-08-03T13:54:31.330Z</lastmod>
+    <lastmod>2018-08-03T13:57:01.641Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2018/07/17/D-2.How-to-install-wiki-with-hexo-and-github-pages-2/</loc>
     
-    <lastmod>2018-08-03T13:54:25.860Z</lastmod>
+    <lastmod>2018-08-03T13:56:57.760Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2018/07/16/D-1.How-to-install-wiki-with-hexo-and-github-pages/</loc>
     
-    <lastmod>2018-08-03T13:54:20.817Z</lastmod>
+    <lastmod>2018-08-03T13:56:52.906Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/07/16/A1.hello-world/</loc>
+    
+    <lastmod>2018-08-03T13:54:59.707Z</lastmod>
     
   </url>
   
