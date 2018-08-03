@@ -40,13 +40,13 @@
   </entry>
   
   <entry>
-    <title>D4.wiki的命令方式</title>
+    <title>D4.外站视频插入方式——iframe</title>
     <link href="http://yoursite.com/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/"/>
     <id>http://yoursite.com/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/</id>
     <published>2018-08-03T14:07:26.773Z</published>
-    <updated>2018-08-03T14:11:52.567Z</updated>
+    <updated>2018-08-03T15:19:26.251Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h1 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h1>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h1 id="1-秒拍视频插入测试"><a href="#1-秒拍视频插入测试" class="headerlink" title="1. 秒拍视频插入测试"></a>1. 秒拍视频插入测试</h1><iframe width="800" height="450" src="https://v.miaopai.com/iframe?scid=SvyHaHOczsp7B6ftW86oqMMz62-h5ai6~Fwp8A__" frameborder="0" allowfullscreen> </iframe> <h1 id="2-优酷视频插入测试"><a href="#2-优酷视频插入测试" class="headerlink" title="2. 优酷视频插入测试"></a>2. 优酷视频插入测试</h1><iframe height="498" width="510" src="http://player.youku.com/embed/XMjc0NjA1OTIwMA==" frameborder="0" 'allowfullscreen'=""></iframe><h1 id="3-腾讯视频插入测试"><a href="#3-腾讯视频插入测试" class="headerlink" title="3. 腾讯视频插入测试"></a>3. 腾讯视频插入测试</h1><iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=b0026tkjv58&tiny=0&auto=0" allowfullscreen></iframe><h1 id="4-youtube视频插入测试"><a href="#4-youtube视频插入测试" class="headerlink" title="4. youtube视频插入测试"></a>4. youtube视频插入测试</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/uQe-S4V47g8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><h1 id="5-爱奇艺视频插入测试"><a href="#5-爱奇艺视频插入测试" class="headerlink" title="5. 爱奇艺视频插入测试"></a>5. 爱奇艺视频插入测试</h1><p>暂未成功</p><h1 id="6-乐视视频插入测试"><a href="#6-乐视视频插入测试" class="headerlink" title="6. 乐视视频插入测试"></a>6. 乐视视频插入测试</h1><p>暂未成功</p><h1 id="7-搜狐视频插入测试"><a href="#7-搜狐视频插入测试" class="headerlink" title="7. 搜狐视频插入测试"></a>7. 搜狐视频插入测试</h1><p>暂未成功</p><h1 id="8-芒果视频插入测试"><a href="#8-芒果视频插入测试" class="headerlink" title="8. 芒果视频插入测试"></a>8. 芒果视频插入测试</h1><embed src="//player.mgtv.com/mgtv_v6_out/main.swf?video_id=4491789" allowfullscreen="true" quality="high" width="580" height="425" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"><h1 id="9-央视视频插入测试"><a href="#9-央视视频插入测试" class="headerlink" title="9. 央视视频插入测试"></a>9. 央视视频插入测试</h1><embed id="v_player_cctv" width="960" height="540" flashvars="adCalls=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D265%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D266%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D267%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D268%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D269%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D270%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D1113%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D1114%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D1115%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D&adAfter=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D271%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D&adPause=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D274%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D&adBanner=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D276%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dsports.cctv.com%26_CHANNEL%3DPAGEvVE6wsPPHRx0KdNA5viL180103%26_sorts%3D1%26_videoid%3D&videoId=5TdiEFEOXuhY2fZQwap180130&filePath=/flvxml/2009/10/14/&isAutoPlay=true&url=http://sports.cctv.com/2018/01/30/VIDEp5TdiEFEOXuhY2fZQwap180130.shtml&tai=news&configPath=http://js.player.cntv.cn/xml/config/outside.xml&widgetsConfig=http://js.player.cntv.cn/xml/widgetsConfig/common.xml&languageConfig=&hour24DataURL=VodCycleData.xml&outsideChannelId=channelBugu&videoCenterId=ab88def8900f467091dee1f9b4ebef72" allowscriptaccess="always" allowfullscreen="true" menu="false" quality="best" bgcolor="#000000" name="v_player_cctv" src="http://player.cntv.cn/standard/cntvOutSidePlayer.swf" type="application/x-shockwave-flash" lk_mediaid="lk_juiceapp_mediaPopup_1257416656250" lk_media="yes">]]></content>
     
     <summary type="html">
     
@@ -63,13 +63,13 @@
   </entry>
   
   <entry>
-    <title>D3.使用Hexo插件插入音乐/视频</title>
+    <title>D3.插入本地音乐/视频</title>
     <link href="http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/"/>
     <id>http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/</id>
     <published>2018-08-03T12:33:59.667Z</published>
-    <updated>2018-08-03T14:02:00.220Z</updated>
+    <updated>2018-08-03T15:52:36.983Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h1 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h1>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h1 id="1-播放音乐"><a href="#1-播放音乐" class="headerlink" title="1. 播放音乐"></a>1. 播放音乐</h1><audio src="/music/春天里.mp3" controls="controls"><br></audio><h1 id="2-采用html5代码实现视频播放"><a href="#2-采用html5代码实现视频播放" class="headerlink" title="2 采用html5代码实现视频播放"></a>2 采用html5代码实现视频播放</h1><p>将视频文件放在source文件夹下的video内</p><p><img src="/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/1533311408479.png" alt="1533311408479"></p><video src="/video/邱诗晗《我想有个家》.mp4" width="640" height="480" controls="controls"><br></video>]]></content>
     
     <summary type="html">
     
@@ -155,29 +155,6 @@
   </entry>
   
   <entry>
-    <title>C1.我在电脑上使用的软件</title>
-    <link href="http://yoursite.com/2018/07/16/C1.my-soft-list/"/>
-    <id>http://yoursite.com/2018/07/16/C1.my-soft-list/</id>
-    <published>2018-07-15T16:00:00.000Z</published>
-    <updated>2018-08-03T13:14:17.167Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>电脑上的软件：</strong></p><ol><li>下载工具：Internet Download Manager（替代品为Eagleget）</li><li>办公软件：CAJViewer、Foxmail、Microsoft Office、OneKeyTools、慧办公、方方格子、FoxitReader、Adobe Acrobat DC</li><li>专业工具：Endnote、Mindjet MindManager、Origin、Sigma-P、ChemBioOffice</li><li>笔记软件：有道云笔记，有道云协作</li><li>压缩刻录：Bandizip（替代品为360压缩）</li><li>图形图像：IrfanView、美图秀秀、Photoshop</li><li>安全杀毒：360杀毒、360安全卫士</li><li>浏览器：Chrome</li><li>文件存储备份工具：GoodSync（替代品为FileGee），onedrive、Dropbox、百度网盘</li><li>搜索工具：Everything、Listary</li><li>即时通讯工具：阿里旺旺、TIM、微信电脑版</li><li>视频工具：Potplayer（替代品为KMplayerPlus和QQ影音）、屏幕录像专家、Core VideoStudio、迅捷视频转换器</li><li>输入法：搜狗输入法</li><li>翻译工具：有道词典</li><li>远程工具：TeamViewer</li><li>网站工具：Git、Putty、WinScp、FlashFXP、Dreamviewer、VS code</li><li>服务组件：Node.js、Python、JAVA</li><li>其它：屏幕按键精灵、</li><li>流程图工具：Microsoft Visio</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>B-B1. 我的wiki工具</title>
     <link href="http://yoursite.com/2018/07/16/B-B1.my-personal-wiki-tool/"/>
     <id>http://yoursite.com/2018/07/16/B-B1.my-personal-wiki-tool/</id>
@@ -198,6 +175,29 @@
       <category term="B.高效学习" scheme="http://yoursite.com/categories/B-%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="B1.知识管理" scheme="http://yoursite.com/categories/B-%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0/B1-%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C1.我在电脑上使用的软件</title>
+    <link href="http://yoursite.com/2018/07/16/C1.my-soft-list/"/>
+    <id>http://yoursite.com/2018/07/16/C1.my-soft-list/</id>
+    <published>2018-07-15T16:00:00.000Z</published>
+    <updated>2018-08-03T13:14:17.167Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>电脑上的软件：</strong></p><ol><li>下载工具：Internet Download Manager（替代品为Eagleget）</li><li>办公软件：CAJViewer、Foxmail、Microsoft Office、OneKeyTools、慧办公、方方格子、FoxitReader、Adobe Acrobat DC</li><li>专业工具：Endnote、Mindjet MindManager、Origin、Sigma-P、ChemBioOffice</li><li>笔记软件：有道云笔记，有道云协作</li><li>压缩刻录：Bandizip（替代品为360压缩）</li><li>图形图像：IrfanView、美图秀秀、Photoshop</li><li>安全杀毒：360杀毒、360安全卫士</li><li>浏览器：Chrome</li><li>文件存储备份工具：GoodSync（替代品为FileGee），onedrive、Dropbox、百度网盘</li><li>搜索工具：Everything、Listary</li><li>即时通讯工具：阿里旺旺、TIM、微信电脑版</li><li>视频工具：Potplayer（替代品为KMplayerPlus和QQ影音）、屏幕录像专家、Core VideoStudio、迅捷视频转换器</li><li>输入法：搜狗输入法</li><li>翻译工具：有道词典</li><li>远程工具：TeamViewer</li><li>网站工具：Git、Putty、WinScp、FlashFXP、Dreamviewer、VS code</li><li>服务组件：Node.js、Python、JAVA</li><li>其它：屏幕按键精灵、</li><li>流程图工具：Microsoft Visio</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
     
     
   </entry>

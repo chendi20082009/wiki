@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/08/03/D5.How-to-install-wiki-with-hexo-and-github-pages/</loc>
+    <loc>http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/</loc>
     
-    <lastmod>2018-08-03T14:13:08.530Z</lastmod>
+    <lastmod>2018-08-03T15:52:36.983Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/</loc>
     
-    <lastmod>2018-08-03T14:11:52.567Z</lastmod>
+    <lastmod>2018-08-03T15:19:26.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/03/D5.How-to-install-wiki-with-hexo-and-github-pages/</loc>
+    
+    <lastmod>2018-08-03T14:13:08.530Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/2018/07/16/B-B1.my-personal-wiki-tool/</loc>
     
     <lastmod>2018-08-03T14:05:23.182Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/</loc>
-    
-    <lastmod>2018-08-03T14:02:00.220Z</lastmod>
     
   </url>
   
