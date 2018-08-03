@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/07/16/my-soft-list/</loc>
+    <loc>http://yoursite.com/2018/07/16/001.%20%E6%88%91%E7%9A%84wiki%E5%B7%A5%E5%85%B7/</loc>
     
-    <lastmod>2018-07-19T01:14:29.303Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/</loc>
-    
-    <lastmod>2018-07-19T01:14:18.822Z</lastmod>
+    <lastmod>2018-08-03T12:38:35.718Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages-2/</loc>
     
-    <lastmod>2018-07-19T01:14:01.510Z</lastmod>
+    <lastmod>2018-08-03T12:33:49.422Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages/</loc>
+    
+    <lastmod>2018-08-03T12:33:29.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/07/16/How-to-install-wiki-with-hexo-and-github-pages-3/</loc>
+    
+    <lastmod>2018-08-03T12:33:29.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/07/16/my-soft-list/</loc>
+    
+    <lastmod>2018-07-19T01:14:29.303Z</lastmod>
     
   </url>
   
@@ -37,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2018-07-16T10:51:01.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2018-07-16T10:51:01.000Z</lastmod>
     
