@@ -9,18 +9,18 @@
         <meta name="keywords" content="D3.插入本地音乐/视频" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="1. 播放音乐    2 采用html5代码实现视频播放将视频文件放在source文件夹下的video内">
+    <meta name="description" content="1. 播放音乐新建music文件夹 将音乐文件放在source文件夹下的music内     2 采用html5代码实现视频播放新建video文件夹 将视频文件放在source文件夹下的video内">
 <meta property="og:type" content="article">
 <meta property="og:title" content="D3.插入本地音乐&#x2F;视频">
 <meta property="og:url" content="http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/index.html">
 <meta property="og:site_name" content="chendi&#39;s wiki">
-<meta property="og:description" content="1. 播放音乐    2 采用html5代码实现视频播放将视频文件放在source文件夹下的video内">
+<meta property="og:description" content="1. 播放音乐新建music文件夹 将音乐文件放在source文件夹下的music内     2 采用html5代码实现视频播放新建video文件夹 将视频文件放在source文件夹下的video内">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/1533311408479.png">
-<meta property="og:updated_time" content="2018-08-03T15:52:36.983Z">
+<meta property="og:updated_time" content="2018-08-03T16:01:55.682Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="D3.插入本地音乐&#x2F;视频">
-<meta name="twitter:description" content="1. 播放音乐    2 采用html5代码实现视频播放将视频文件放在source文件夹下的video内">
+<meta name="twitter:description" content="1. 播放音乐新建music文件夹 将音乐文件放在source文件夹下的music内     2 采用html5代码实现视频播放新建video文件夹 将视频文件放在source文件夹下的video内">
 <meta name="twitter:image" content="http://yoursite.com/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/1533311408479.png">
     
 
@@ -82,7 +82,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -101,9 +101,9 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Articles',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Catégories',
+            CATEGORIES: 'Categories',
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
@@ -135,7 +135,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -152,7 +152,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Catégories</span>
+            <span>categories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -204,7 +204,7 @@
                             &nbsp;
                             D.基于github pages搭建博客和wiki
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/07/16/D1.How-to-install-wiki-with-hexo-and-github-pages/">D1.简单介绍及环境安装</a></li>  <li class="file active"><a href="/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/">D3.插入本地音乐/视频</a></li>  <li class="file"><a href="/2018/07/17/D2.How-to-install-wiki-with-hexo-and-github-pages/">D2.github pages+hexo搭建个人博客</a></li>  <li class="file"><a href="/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/">D4.外站视频插入方式——iframe</a></li>  <li class="file"><a href="/2018/08/03/D5.How-to-install-wiki-with-hexo-and-github-pages/">D5.XXXX</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/07/17/D2.How-to-install-wiki-with-hexo-and-github-pages/">D2.github pages+hexo搭建个人博客</a></li>  <li class="file active"><a href="/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/">D3.插入本地音乐/视频</a></li>  <li class="file"><a href="/2018/08/03/D5.How-to-install-wiki-with-hexo-and-github-pages/">D5.XXXX</a></li>  <li class="file"><a href="/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/">D4.外站视频插入方式——iframe</a></li>  <li class="file"><a href="/2018/07/16/D1.How-to-install-wiki-with-hexo-and-github-pages/">D1.简单介绍及环境安装</a></li>  </ul> 
                     </li> 
                      </ul> 
     </div>
@@ -306,13 +306,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/chendi/Wiki-site/raw/writing/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> Source </a>
+                                <a href='https://github.com/chendi20082009/wiki/raw/master/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/chendi/Wiki-site/edit/writing/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> Edit </a>
+                                <a href='https://github.com/chendi20082009/wiki/edit/master/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/chendi/Wiki-site/commits/writing/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> History </a>
+                                <a href='https://github.com/chendi20082009/wiki/commits/master/source/_posts/D3.How-to-install-wiki-with-hexo-and-github-pages.md'> History </a>
                             </div>
                         
                     </div>
@@ -334,11 +334,14 @@
         
         
             <hr>
-<h1 id="1-播放音乐"><a href="#1-播放音乐" class="headerlink" title="1. 播放音乐"></a>1. 播放音乐</h1><audio src="/music/春天里.mp3" controls="controls"><br></audio>
+<h1 id="1-播放音乐"><a href="#1-播放音乐" class="headerlink" title="1. 播放音乐"></a>1. 播放音乐</h1><p>新建music文件夹</p>
+<p>将音乐文件放在source文件夹下的music内</p>
+<audio src="/music/春天里.mp3" controls="controls"><br></audio>
 
 
 
-<h1 id="2-采用html5代码实现视频播放"><a href="#2-采用html5代码实现视频播放" class="headerlink" title="2 采用html5代码实现视频播放"></a>2 采用html5代码实现视频播放</h1><p>将视频文件放在source文件夹下的video内</p>
+<h1 id="2-采用html5代码实现视频播放"><a href="#2-采用html5代码实现视频播放" class="headerlink" title="2 采用html5代码实现视频播放"></a>2 采用html5代码实现视频播放</h1><p>新建video文件夹</p>
+<p>将视频文件放在source文件夹下的video内</p>
 <p><img src="/2018/08/03/D3.How-to-install-wiki-with-hexo-and-github-pages/1533311408479.png" alt="1533311408479"></p>
 <video src="/video/邱诗晗《我想有个家》.mp4" width="640" height="480" controls="controls"><br></video>
 
@@ -357,7 +360,7 @@
 <nav id="article-nav">
     
         <a href="/2018/08/03/D4.How-to-install-wiki-with-hexo-and-github-pages/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Plus récent</strong>
+            <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
                     D4.外站视频插入方式——iframe
@@ -367,7 +370,7 @@
     
     
         <a href="/2018/07/17/D2.How-to-install-wiki-with-hexo-and-github-pages/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Plus ancien</strong>
+            <strong class="article-nav-caption">Older</strong>
             <div class="article-nav-title">D2.github pages+hexo搭建个人博客</div>
         </a>
     
