@@ -157,6 +157,29 @@
   </entry>
   
   <entry>
+    <title>C1.我在电脑上使用的软件</title>
+    <link href="http://yoursite.com/2018/07/16/C1.my-soft-list/"/>
+    <id>http://yoursite.com/2018/07/16/C1.my-soft-list/</id>
+    <published>2018-07-15T16:00:00.000Z</published>
+    <updated>2018-08-03T13:14:17.167Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>电脑上的软件：</strong></p><ol><li>下载工具：Internet Download Manager（替代品为Eagleget）</li><li>办公软件：CAJViewer、Foxmail、Microsoft Office、OneKeyTools、慧办公、方方格子、FoxitReader、Adobe Acrobat DC</li><li>专业工具：Endnote、Mindjet MindManager、Origin、Sigma-P、ChemBioOffice</li><li>笔记软件：有道云笔记，有道云协作</li><li>压缩刻录：Bandizip（替代品为360压缩）</li><li>图形图像：IrfanView、美图秀秀、Photoshop</li><li>安全杀毒：360杀毒、360安全卫士</li><li>浏览器：Chrome</li><li>文件存储备份工具：GoodSync（替代品为FileGee），onedrive、Dropbox、百度网盘</li><li>搜索工具：Everything、Listary</li><li>即时通讯工具：阿里旺旺、TIM、微信电脑版</li><li>视频工具：Potplayer（替代品为KMplayerPlus和QQ影音）、屏幕录像专家、Core VideoStudio、迅捷视频转换器</li><li>输入法：搜狗输入法</li><li>翻译工具：有道词典</li><li>远程工具：TeamViewer</li><li>网站工具：Git、Putty、WinScp、FlashFXP、Dreamviewer、VS code</li><li>服务组件：Node.js、Python、JAVA</li><li>其它：屏幕按键精灵、</li><li>流程图工具：Microsoft Visio</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>A1.Hello World</title>
     <link href="http://yoursite.com/2018/07/16/A1.hello-world/"/>
     <id>http://yoursite.com/2018/07/16/A1.hello-world/</id>
@@ -187,29 +210,6 @@
     <updated>2018-08-03T13:15:08.270Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>手机上的软件：</strong></p><ol><li>聊天工具：</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>C1.我在电脑上使用的软件</title>
-    <link href="http://yoursite.com/2018/07/16/C1.my-soft-list/"/>
-    <id>http://yoursite.com/2018/07/16/C1.my-soft-list/</id>
-    <published>2018-07-15T16:00:00.000Z</published>
-    <updated>2018-08-03T13:14:17.167Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>电脑上的软件：</strong></p><ol><li>下载工具：Internet Download Manager（替代品为Eagleget）</li><li>办公软件：CAJViewer、Foxmail、Microsoft Office、OneKeyTools、慧办公、方方格子、FoxitReader、Adobe Acrobat DC</li><li>专业工具：Endnote、Mindjet MindManager、Origin、Sigma-P、ChemBioOffice</li><li>笔记软件：有道云笔记，有道云协作</li><li>压缩刻录：Bandizip（替代品为360压缩）</li><li>图形图像：IrfanView、美图秀秀、Photoshop</li><li>安全杀毒：360杀毒、360安全卫士</li><li>浏览器：Chrome</li><li>文件存储备份工具：GoodSync（替代品为FileGee），onedrive、Dropbox、百度网盘</li><li>搜索工具：Everything、Listary</li><li>即时通讯工具：阿里旺旺、TIM、微信电脑版</li><li>视频工具：Potplayer（替代品为KMplayerPlus和QQ影音）、屏幕录像专家、Core VideoStudio、迅捷视频转换器</li><li>输入法：搜狗输入法</li><li>翻译工具：有道词典</li><li>远程工具：TeamViewer</li><li>网站工具：Git、Putty、WinScp、FlashFXP、Dreamviewer、VS code</li><li>服务组件：Node.js、Python、JAVA</li><li>其它：屏幕按键精灵、</li><li>流程图工具：Microsoft Visio</li></ol>]]></content>
     
     <summary type="html">
     
