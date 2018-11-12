@@ -155,29 +155,6 @@
   </entry>
   
   <entry>
-    <title>C2.我在手机上使用的软件</title>
-    <link href="http://yoursite.com/2018/07/16/C2.my-soft-list/"/>
-    <id>http://yoursite.com/2018/07/16/C2.my-soft-list/</id>
-    <published>2018-07-15T16:00:00.000Z</published>
-    <updated>2018-08-03T13:15:08.270Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>手机上的软件：</strong></p><ol><li>聊天工具：</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>C1.我在电脑上使用的软件</title>
     <link href="http://yoursite.com/2018/07/16/C1.my-soft-list/"/>
     <id>http://yoursite.com/2018/07/16/C1.my-soft-list/</id>
@@ -226,11 +203,34 @@
   </entry>
   
   <entry>
-    <title>A1.Hello World</title>
+    <title>C2.我在手机上使用的软件</title>
+    <link href="http://yoursite.com/2018/07/16/C2.my-soft-list/"/>
+    <id>http://yoursite.com/2018/07/16/C2.my-soft-list/</id>
+    <published>2018-07-15T16:00:00.000Z</published>
+    <updated>2018-08-03T13:15:08.270Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>手机上的软件：</strong></p><ol><li>聊天工具：</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="C.软件" scheme="http://yoursite.com/categories/C-%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>E1.01讲 流式细胞术公开课介绍</title>
     <link href="http://yoursite.com/2018/07/16/E1.01%E8%AE%B2%20%E6%B5%81%E5%BC%8F%E7%BB%86%E8%83%9E%E6%9C%AF%E5%85%AC%E5%BC%80%E8%AF%BE%E4%BB%8B%E7%BB%8D/"/>
     <id>http://yoursite.com/2018/07/16/E1.01讲 流式细胞术公开课介绍/</id>
     <published>2018-07-15T16:00:00.000Z</published>
-    <updated>2018-11-12T11:12:42.987Z</updated>
+    <updated>2018-11-12T11:15:03.786Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>更多课程请访问作者官方Youtube频道→<a href="https://www.youtube.com/channel/UCq80cLo6eaCOUIvSUqH1f_Q" target="_blank" rel="noopener">Johnson Han</a>  </p><video src="/video/01讲 流式细胞术公开课介绍.mp4" width="640" height="480" controls="controls"><br></video>]]></content>
     
